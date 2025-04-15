@@ -1,0 +1,43 @@
+regular = 0.05
+premium = 0.10
+vip = 0.15
+
+
+
+Cliente = regular
+produto = "shampoo"
+valor = 9
+
+#cliente = print (input("você é um cliente: "))
+#produto = print (input("seu produto é: "))
+#valor = print (input("o valor do produto é: "))
+#Desconto = valor
+
+if Cliente == regular:
+ desconto = (valor * 0.05) #= (valor_total)
+elif Cliente == premium:
+ desconto = (valor * 0.10) #= (valor_total)
+elif Cliente == vip:
+ desconto = (valor * 0.15) #= (valor_total)
+else:
+ print ("valor")
+
+print (valor - desconto)
+
+#print Valor total
+#valor_total = Valor
+
+#else:
+ #print (valor-10)
+#Cliente (input("você é um cliente: "))
+#Produto (input("seu produto é: "))
+#Preço (input("o preço do produto é: "))
+
+#if Cliente == regular:
+ #print (valor * 0.05) #= (valor_total)
+#elif Cliente == premium:
+ #print (valor * 0.10) #= (valor_total)
+#elif Cliente == vip:
+ #print (valor * 0.15) #= (valor_total)
+#else:
+ #print ("valor")
