@@ -1,0 +1,15 @@
+#medidas e calculos sobre a medição de temperatura
+graus_celsius = float(input())
+print (graus_celsius, "graus celsius")
+graus_Fahrenheit = (graus_celsius * 1.8 + 32)
+print (graus_Fahrenheit, "graus Fahrenheit")
+graus_kelvin = (graus_celsius + 273.15)
+print (graus_kelvin, "graus kelvin")
+
+#graus_celsius = float(input("sua quantia de graus celsius foi: "))
+#graus_celsius = 2
+#print (graus_celsius, "graus celsius")
+#graus_Fahrenheit = (graus_celsius * 1.8 + 32)
+#print (graus_Fahrenheit, "graus Fahrenheit")
+#graus_kelvin = (graus_celsius + 273.15)
+#print (graus_kelvin, "graus kelvin")
