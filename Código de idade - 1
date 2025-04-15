@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() 
+  {
+    inteiro nascimento,anoatual,idade
+  escreva(" ano de nascimento ")
+leia(nascimento)
+  escreva(" ano atual ")
+leia(anoatual)
+idade = (anoatual-nascimento)
+  escreva(" sua idade é: "+idade)
+se(idade<18)
+escreva("\n você é menor de idade ")
+se(idade>18)
+escreva("\n você é maior de idade e ja pode ser preso :D ")
+  }
+}
