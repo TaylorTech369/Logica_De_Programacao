@@ -1,0 +1,28 @@
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Tipo de cliente e seus descontos
+regular = 0.05 # 5% de desconto no valor inicial
+premium = 0.10 # 10% de desconto no valor inicial
+vip = 0.15 # 15% de desconto no valor inicial
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# informações principais
+Cliente = "regular"     # "regular", "premium" e "vip"
+produto = "gaita"     # produto aleatorio escolhido
+valor = 18000     # não coloque "." a nao ser quando for para centavos, obs:19.98 reais
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Calculanddo e colocando em pratica os descontos
+if Cliente == "regular":
+ desconto = (valor * 0.05) #= (valor total para regular)
+elif Cliente == "premium":
+ desconto = (valor * 0.10) #= (valor total para premium)
+elif Cliente == "vip":
+ desconto = (valor * 0.15) #= (valor total para vip)
+else:
+ print (valor * 1) #= (valor cheio para quem não quer assinar um cartão da loja)
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# O que vai imprimir para o usuario
+print ("Cliente", Cliente) # Imprime o tipo de cliente
+print ("seu produto é:",produto) # Imprime o produto sendo comprado
+print ("O valor do produto é:",valor, "reais") # Imprime o valor inicial do produto
+print ("O valor final é:",valor - desconto, "reais") # Imprime o valor final do produto
+print ("seu desconto é de:",desconto, "reais") # Imprime o valor do desconto
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
