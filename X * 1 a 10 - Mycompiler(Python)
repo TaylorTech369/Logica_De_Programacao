@@ -1,0 +1,21 @@
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#numero_1 = float(input())
+#numero_2 = float(input())
+#numero_3 = (numero_1 + numero_2)
+#print (numero_3)
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# numero escolhidos e multiplicaçoes de 1 a 10
+numero1 = float(input())
+print ("seu numero vezes 1, fica ",numero1 * 1)
+print ("seu numero vezes 2, fica ",numero1 * 2)
+print ("seu numero vezes 3, fica ",numero1 * 3)
+print ("seu numero vezes 4, fica ",numero1 * 4)
+print ("seu numero vezes 5, fica ",numero1 * 5)
+print ("seu numero vezes 6, fica ",numero1 * 6)
+print ("seu numero vezes 7, fica ",numero1 * 7)
+print ("seu numero vezes 8, fica ",numero1 * 8)
+print ("seu numero vezes 9, fica ",numero1 * 9)
+print ("seu numero vezes 10, fica ",numero1 * 10)
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
