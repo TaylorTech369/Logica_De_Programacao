@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+  inteiro numero1
+  escreva("O numero escolhido é ")
+   leia(numero1)
+  escreva("\nseu numero vezes 1, fica ",numero1 * 1)
+  escreva("\nseu numero vezes 2, fica ",numero1 * 2)
+  escreva("\nseu numero vezes 3, fica ",numero1 * 3)
+  escreva("\nseu numero vezes 4, fica ",numero1 * 4)
+  escreva("\nseu numero vezes 5, fica ",numero1 * 5)
+  escreva("\nseu numero vezes 6, fica ",numero1 * 6)
+  escreva("\nseu numero vezes 7, fica ",numero1 * 7)
+  escreva("\nseu numero vezes 8, fica ",numero1 * 8)
+  escreva("\nseu numero vezes 9, fica ",numero1 * 9)
+  escreva("\nseu numero vezes 10, fica ",numero1 * 10)
+
