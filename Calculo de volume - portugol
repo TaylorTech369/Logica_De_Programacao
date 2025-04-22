@@ -1,0 +1,10 @@
+programa {
+  inclua biblioteca Matematica --> mati
+  funcao inicio() {
+  real r, h, vol, pi
+leia(r, h)
+pi = 3.141598
+vol = pi * mati.potencia(r,3)*h
+escreva(vol)
+  }
+}
