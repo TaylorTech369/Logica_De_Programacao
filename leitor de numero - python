@@ -1,0 +1,15 @@
+#insere e le um numero e determina-lo "negativo", "positivo" ou "nulo".
+numero = int(input("seu numero é "))
+if numero < 0:
+ print ("negativo")
+elif numero > 0:
+ print ("positivo")
+else:
+ print ("nulo")
+#determina se o numero é "par", "impar" ou "nulo"
+if numero == 0:
+ print
+elif numero % 2 == 0:
+ print ("e ele é par")
+else:
+ print ("e ele é impar")
