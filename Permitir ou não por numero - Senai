@@ -1,0 +1,16 @@
+num1 = float(input())
+#num2 = float(input())
+
+if num1 >=20 <=90:
+ print ("o valor esta na faixa permitida")
+else:
+ print ("o valor esta fora da faixa permitida")
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+idade = float(input())
+
+if idade <=12:
+ print ("sua entrada é totalmente de graça, aventureiro")
+elif idade >=60:
+ print("sua entrada é totalemnte gratuita Ancião")
+else:
+ print("pague, seu adulto")
