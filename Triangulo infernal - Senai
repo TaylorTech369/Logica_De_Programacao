@@ -1,0 +1,31 @@
+# Triangulo isoceles
+#Para calcular um triângulo isósceles, é necessário conhecer as medidas dos seus lados (base e lado congruente) e/ou a altura.
+#a área é calculada como base vezes altura dividido por 2, e o perímetro é a soma dos seus três lados.
+#Se conhecidos os lados, é possível encontrar a altura usando o teorema de Pitágoras.
+
+# Triangulo escaleno
+#Para calcular a área de um triângulo escaleno, pode-se usar a fórmula da área de um triângulo qualquer,ou seja, base vezes altura dividido por dois.
+#Se você não conhece a altura, pode usar a fórmula de Heron, que utiliza os lados do triângulo para calcular a área.
+#O perímetro do triângulo escaleno é simplesmente a soma dos comprimentos dos seus três lados. 
+
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Somas e mensagens
+lado1 = float(input())
+lado2 = float(input())
+lado3 = float(input())
+if lado3 == lado1 + lado2:
+ print ("pode se formar um triangulo")
+else:
+ print ("o triangulo sairia feio")
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Tipo do triangulo
+if lado1 == lado2: #isósceles
+ print ("isósceles")
+elif lado1 != lado2 != lado3: #escaleno
+ print ("escaleno")
+elif lado1 == lado2 == lado3: #equilatero
+ print ("equilatero")
+else:
+ print ("sei la")
